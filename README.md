@@ -1,10 +1,10 @@
-# SerumControl
+# PySerum
 
 A Python DSL wrapper for generating Serum2 preset JSON files.
 
 ## Overview
 
-This repository provides a Python interface to programmably generate presets for Xfer Records Serum synthesizer. It generates valid Serum2 JSON files which can then be packed into `.SerumPreset` files.
+This repository provides a Python interface to programmably generate presets for Xfer Records Serum2 synthesizer. It generates valid Serum2 JSON files which can then be packed into `.SerumPreset` files.
 
 ## Features
 
