@@ -1,7 +1,10 @@
-# Notes
+# Modules
+Modules are the objects that are found in the Serum2 interface.
 
-## Oscillator
+## Oscillator Module
 The Oscillator module is composed of the Oscillator and the WTOsc modules.
+
+![Oscillator](assets/oscillator.png)
 ### Parameters
 #### WTOsc
 | ModuleParamID | Serum name | Param name |
@@ -9,8 +12,8 @@ The Oscillator module is composed of the Oscillator and the WTOsc modules.
 | 0 | 1 (Warp) | kParamWarp |
 | 3 | 2 (Warp) | kParamWarp2 |
 | 6 | WT Pos | kParamTablesPos |
-| 8 | $\phi$ | kParamInitialPhase |
-| 9 | $\phi_{rand}$ | kParamRandomPhase |
+| 8 | $\Phi$ | kParamInitialPhase |
+| 9 | $\Phi_{rand}$ | kParamRandomPhase |
 
 #### Oscillator
 | ModuleParamID | Serum name | Param name |
@@ -26,8 +29,10 @@ The Oscillator module is composed of the Oscillator and the WTOsc modules.
 
 
 
-## Noise Oscillator
+## Noise Oscillator Module
 The Noise Oscillator module is composed of the NoiseOsc and Oscillator modules.
+
+![Noise Oscillator](assets/noise_oscillator.png)
 ### Parameters
 #### NoiseOsc
 | ModuleParamID | Serum name | Param name |
@@ -44,8 +49,10 @@ The Noise Oscillator module is composed of the NoiseOsc and Oscillator modules.
 | 2 | Pan | kParamPan |
 
 
-## Sub Oscillator
+## Sub Oscillator Module
 The Sub Oscillator module is composed of the SubOsc and Oscillator modules.
+
+![Sub Oscillator](assets/sub_oscillator.png)
 ### Parameters
 #### SubOsc
 | ModuleParamID | Serum name | Param name |
@@ -61,9 +68,27 @@ The Sub Oscillator module is composed of the SubOsc and Oscillator modules.
 | 6 | CRS | kParamCoarsePit |
 
 
+## Filter Module
+The Filter module is composed of the VoiceFilter.
+
+![Filter](assets/filter.png)
+### Parameters
+#### VoiceFilter
+| ModuleParamID | Serum name | Param name |
+|----|----| ---- |
+| 1 | Wet | kParamWet |
+| 3 | Freq | kParamFreq |
+| 4 | Res | kParamReso |
+| 5 | Drive | kParamDrive |
+| 6 | Var (changes per filter) | kParamVar |
+| 7 | Pan | kParamStereo |
+| 8 | Level | kParamLevelOut |
+
 ## Automation
 In Serum2, automations can be found in the `Matrix` section.
 These automations are stored as `ModSlot` keys of the data dictionary.
+
+![Automation](assets/automation_row.png)
 
 ### Automation Routing
 

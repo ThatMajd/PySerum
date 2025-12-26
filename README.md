@@ -6,6 +6,10 @@ A Python DSL wrapper for generating Serum2 preset JSON files.
 
 This repository provides a Python interface to programmably generate presets for Xfer Records Serum2 synthesizer. It generates valid Serum2 JSON files which can then be packed into `.SerumPreset` files.
 
+## Development
+
+Currently in the process of documenting the Serum2 file format in the [notes.md](notes.md) file.
+
 ## Features
 
 Currently, this library supports partial implementation of:
@@ -13,7 +17,7 @@ Currently, this library supports partial implementation of:
 - **Oscillators**: Settings for Oscillator A, B, Sub, and Noise (Volume, Pan, Detune, etc.)
 - **Filters**: Basic filter settings (Type, Cutoff, Resonance, Drive, etc.)
 
-**Note**: More features like modulation, automation, and full parameter coverage will be added in future updates.
+**Note**: More features like modulation, automation, and full parameter coverage will be added soon.
 
 ## Usage
 
@@ -59,7 +63,7 @@ Currently, this library supports partial implementation of:
     python cli.py pack my_preset.json my_preset.SerumPreset
     ```
 3.  Preset after being loaded in Serum2:
-![Preset Example](output_preset.png)
+![Preset Example](assets/output_preset.png)
 
 
 ## Credits
